@@ -11,7 +11,7 @@ The site's users can be some fans of jokes or people who curious about things th
 To find some interesting facts and jokes, i like it and want to make user happy with my website.
 
 Potential features to include:
-* Maybe some greetings for user.
+* Maybe some greetings for user.ssssssssssssss
 * Photos or video clips for the jokes and fun facts.
 * Rating features for the jokes and facts.
 * Provide links to external resources.
