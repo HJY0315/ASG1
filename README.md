@@ -17,16 +17,16 @@ Potential features to include:
 * Provide links to external resources.
 * Provide a feature that user can upload their jokes or fun facts.
 * Maybe i'll include a guessing session some the fun facts(giving 4 option etc.), but user can skip it and see the answer if they want.
-* I'm thinking of include a bookmark feature.
+* Bookmark feature.
 * Create some category for fun facts(Animal, building, country etc.).
-* Comment feature??
+* Comment feature
 * Feedback on website.
 * Background of website.
 * Maybe a filter feature.
-
-### Suggested Javascript features to include:
-* Micro interactions when interacting with the site eg, clicking on an interactable area
-to show some animation, mouse over interactions, scrolling interactions when
-interacting with the site.
-* An input box to allow users to enter something.
-
+* User can have a User name and some basic profile.
+* Search feature.
+* Navigation.
+* About page.
+* Contact info,email etc.
+* Website name.
+* Likes for fun facts and jokes.
