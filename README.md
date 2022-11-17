@@ -23,10 +23,3 @@ Potential features to include:
 * Feedback on website.
 * Background of website.
 * Maybe a filter feature.
-
-### Suggested Javascript features to include:
-* Micro interactions when interacting with the site eg, clicking on an interactable area
-to show some animation, mouse over interactions, scrolling interactions when
-interacting with the site.
-* An input box to allow users to enter something.
-
