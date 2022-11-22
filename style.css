@@ -9,9 +9,10 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    position: fixed;
+    position: relative;
     min-height: 100vh;
     width: 100%;
+    color: white;
 }
 nav{
     display: flex;
@@ -48,3 +49,46 @@ nav{
 .links ul li:hover::after{
     width: 100%;
 }
+.welcome{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-image: url(Images/matt-gross-uPa8mFbySYw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 150px;
+}
+.welcome h1{
+    font-size: 50px;
+}
+.welcome p{
+    font-size: 25px;
+}
+.funfact{
+    background-color: white;
+    margin: auto;
+    width: 80%;
+    padding-top: 50px;
+}
+.flex-container{
+    list-style: none;
+    display: flex;
+    align-content: space-around;
+    background-color: darkslategrey;
+    flex-wrap: wrap;
+}
+.button{
+    background-color: aliceblue;
+    margin: 20px;
+    border: none;
+    padding: 80px 70px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+  }
