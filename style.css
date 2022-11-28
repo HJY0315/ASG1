@@ -56,8 +56,8 @@ nav{
     transform: translate(-50%,-50%);
     position: absolute;
     background-image: url(Images/matt-gross-uPa8mFbySYw-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-repeat: fixed;
+    background-attachment: scroll;
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -72,7 +72,7 @@ nav{
 .funfact{
     background-color: white;
     margin: auto;
-    width: 80%;
+    width: 70%;
     padding-top: 50px;
 }
 .flex-container{
@@ -86,7 +86,7 @@ nav{
     background-color: aliceblue;
     margin: 20px;
     border: none;
-    padding: 80px 70px;
+    padding: 90px 80px;
     border-radius: 4px;
     text-align: center;
     display: inline-block;
