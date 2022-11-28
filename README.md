@@ -13,20 +13,12 @@ To find some interesting facts and jokes, i like it and want to make user happy 
 Potential features to include:
 * Maybe some greetings for user.
 * Photos or video clips for the jokes and fun facts.
-* Rating features for the jokes and facts.
 * Provide links to external resources.
-* Provide a feature that user can upload their jokes or fun facts.
 * Maybe i'll include a guessing session some the fun facts(giving 4 option etc.), but user can skip it and see the answer if they want.
-* Bookmark feature.
 * Create some category for fun facts(Animal, building, country etc.).
-* Comment feature
-* Feedback on website.
 * Background of website.
-* Maybe a filter feature.
-* User can have a User name and some basic profile.
-* Search feature.
 * Navigation.
 * About page.
 * Contact info,email etc.
 * Website name.
-* Likes for fun facts and jokes.
+* A home button.
