@@ -14,8 +14,6 @@ Potential features to include:
 * Maybe some greetings for user.
 * Photos or video clips for the jokes and fun facts.
 * Provide links to external resources.
-* Maybe i'll include a guessing session some the fun facts(giving 4 option etc.), but user can skip it and see the answer if they want.
-* Create some category for fun facts(Animal, building, country etc.).
 * Background of website.
 * Navigation.
 * About page.
