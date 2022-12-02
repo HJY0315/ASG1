@@ -70,15 +70,34 @@ nav{
     font-size: 25px;
 }
 
-.funfact{
-    width: 80%;
-    margin: auto;
+.funfactsec{
+    width: 100%;
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: papayawhip;
 }
+.funfact{
+    width: 80%; 
+    margin: auto;
+}
+
+.jokesec{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(205, 249, 203);
+}
+
+.joke{
+    width: 80%; 
+    margin: auto;
+}
+
 h1{
     font-size: 50px;
 }
+
 p{
     color: black;
     font-size: 17px;
@@ -95,7 +114,7 @@ img{
     display: flex;
     justify-content: space-between;
 }
-.column{
+.columnFF{
     flex-basis: 31%;
     background: rgb(149, 254, 248);
     border-radius: 10px;
@@ -103,6 +122,16 @@ img{
     padding: 20px 30px;
     box-sizing: border-box;
     box-shadow: 15px 15px 10px lightblue;
+}
+
+.columnJ{
+    flex-basis: 31%;
+    background: rgb(246, 201, 252);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 10px rgb(236, 152, 253);
 }
 /*
 .funfactheader{
