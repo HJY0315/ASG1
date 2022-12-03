@@ -9,16 +9,18 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet"> 
+	<script src="script.js" defer></script>
 </head>
 <body>
-	<section class="header">
+	<a href="#header" class="homenav" >HOME</a>
+	<section class="header" id="header">
 		<nav>
-			<h1 style="color: red;">Explore</h1>
+			<h1 style="color: rgb(219, 8, 8); font-size: 34px;">FunExplore</h1>
 			<div class="links">
 				<ul>
 					<li><a href="">HOME</a></li>
 					<li><a href="#funfact">FUNFACTS</a></li>
-					<li><a href="">JOKES</a></li>
+					<li><a href="#jokes">JOKES</a></li>
 					<li><a href="">ABOUT</a></li>
 					<li><a href="">CONTACT</a></li>
 				</ul>
@@ -32,6 +34,7 @@
 		
 	</section>
 
+	<!---FUN FACTS SECTION-->
 	<section class="funfactsec" id="funfact">
 		<h1>Fun Facts</h1>
 		<section class="funfact">
@@ -224,30 +227,257 @@
 
 	</section>
 
-	<section class="jokesec">
+	<!---JOKES SECTION-->
+	<section class="jokesec" id="jokes">
 		<h1>Jokes</h1>
 		<section class="joke">
 
 			<div class="row">
 
 				<div class="columnJ">
-					<p>
-						Flamingos are not pink. They are born grey, their diet of 
-						brine shrimp and blue green algae contains a natural pink
-						 dye called canthaxanthin that makes their feathers pink.
-					</p>
+					<p class="Q">Why do mushrooms get invited to all the best parties?</p>
+					<p class="Ans" id="A1">He was a fun-gi!</p>
+					<div class="toggle">
+						<a class="toggleS" id="S1">Show</a>
+						<a class="toggleH" id="H1">Hide</a>
+					</div>
 				</div>
-	
+
 				<div class="columnJ">
-					<p>Otters “hold hands” while sleeping, so they don't float away from each other. And it's super cute!</p>
+					<p class="Q">Where can you find a grandma in a hurry?</p>
+					<p class="Ans" id="A2">Insta-gram!</p>
+					<div class="toggle">
+						<a class="toggleS" id="S2">Show</a>
+						<a class="toggleH" id="H2">Hide</a>
+					</div>
 				</div>
-	
+
 				<div class="columnJ">
-					<p>
-						Hummingbirds are the only known birds that can also fly backwards. They often do this when retreating away from flowers.
-						They are also the smallest bird in the world and heavy as a sheet of paper.
-					</p>
+					<p class="Q">When your teacher asks “Where's your homework?”</p>
+					<p class="Ans" id="A3">It took a sick day. It had too many problems.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S3">Show</a>
+						<a class="toggleH" id="H3">Hide</a>
+					</div>
 				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="columnJ">
+					<p class="Q">Did you hear about the first restaurant to open on the moon?</p>
+					<p class="Ans" id="A4">It had great food, but no atmosphere.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S4">Show</a>
+						<a class="toggleH" id="H4">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">What did one ocean say to the other ocean?</p>
+					<p class="Ans" id="A5">Nothing, it just waved.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S5">Show</a>
+						<a class="toggleH" id="H5">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">You heard the rumor going around about butter?</p>
+					<p class="Ans" id="A6">Never mind, I shouldn't spread it.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S6">Show</a>
+						<a class="toggleH" id="H6">Hide</a>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="columnJ">
+					<p class="Q">Why aren't koalas considered bears?</p>
+					<p class="Ans" id="A7">They don't have the right koala-fications.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S7">Show</a>
+						<a class="toggleH" id="H7">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">A horse walks into a bar.</p>
+					<p class="Ans" id="A8">The bartender says, “Why the long face?”</p>
+					<div class="toggle">
+						<a class="toggleS" id="S8">Show</a>
+						<a class="toggleH" id="H8">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">Why are crabs so bad at sharing?</p>
+					<p class="Ans" id="A9">Because they're all shellfish.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S9">Show</a>
+						<a class="toggleH" id="H9">Hide</a>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="columnJ">
+					<p class="Q">Did you hear about the Italian chef who died?</p>
+					<p class="Ans" id="A10">He pasta-way.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S10">Show</a>
+						<a class="toggleH" id="H10">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">Why do we tell actors to "break a leg?"</p>
+					<p class="Ans" id="A11">Because every play has a cast.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S11">Show</a>
+						<a class="toggleH" id="H11">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">What did the left eye say to the right eye?</p>
+					<p class="Ans" id="A12">Between you and me, something smells.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S12">Show</a>
+						<a class="toggleH" id="H12">Hide</a>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="columnJ">
+					<p class="Q">What do you call a fake noodle?</p>
+					<p class="Ans" id="A13">An impasta.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S13">Show</a>
+						<a class="toggleH" id="H13">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">Where do young trees go to learn?</p>
+					<p class="Ans" id="A14">Elementree school.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S14">Show</a>
+						<a class="toggleH" id="H14">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">What do you call a bee that can't make up its mind?</p>
+					<p class="Ans" id="A15">A Maybe.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S15">Show</a>
+						<a class="toggleH" id="H15">Hide</a>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="columnJ">
+					<p class="Q">What did one wall say to the other?</p>
+					<p class="Ans" id="A16">I'll meet you at the corner.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S16">Show</a>
+						<a class="toggleH" id="H16">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">What's black and white and goes round and round?</p>
+					<p class="Ans" id="A17">A penguin in the washing machine.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S17">Show</a>
+						<a class="toggleH" id="H17">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">Why couldn't the bicycle stand up by itself?</p>
+					<p class="Ans" id="A18">It was two tired.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S18">Show</a>
+						<a class="toggleH" id="H18">Hide</a>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="columnJ">
+					<p class="Q">Why did the student eat his homework?</p>
+					<p class="Ans" id="A19">Because his teacher told him it was a piece of cake.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S19">Show</a>
+						<a class="toggleH" id="H19">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">What do you call a boomerang that won't come back?</p>
+					<p class="Ans" id="A20">A stick.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S20">Show</a>
+						<a class="toggleH" id="H20">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">Why couldn't the leopard play hide and seek?</p>
+					<p class="Ans" id="A21">Because he was always spotted.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S21">Show</a>
+						<a class="toggleH" id="H21">Hide</a>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="columnJ">
+					<p class="Q">Where do sheep go to get their hair cut?</p>
+					<p class="Ans" id="A22">The baa-baa shop.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S22">Show</a>
+						<a class="toggleH" id="H22">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">Why are there gates around cemeteries?</p>
+					<p class="Ans" id="A23">Because people are dying to get in.</p>
+					<div class="toggle">
+						<a class="toggleS" id="S23">Show</a>
+						<a class="toggleH" id="H23">Hide</a>
+					</div>
+				</div>
+
+				<div class="columnJ">
+					<p class="Q">What do you get when you cross a snake with a pie?</p>
+					<p class="Ans" id="A24">A pie-thon!</p>
+					<div class="toggle">
+						<a class="toggleS" id="S24">Show</a>
+						<a class="toggleH" id="H24">Hide</a>
+					</div>
+				</div>
+
 			</div>
 
 		</section>
@@ -255,7 +485,7 @@
 
 	</section>
 
-
+	
 </body>
 
 
