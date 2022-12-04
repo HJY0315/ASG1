@@ -6,7 +6,7 @@
 
 
 .header{
-    background-image: url(Images/pexels-felix-mittermeier-1146134.jpg);
+    background-image: url(Images/HomeBG.jpg);
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
@@ -75,7 +75,7 @@ nav{
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
-    background-image: url(Images/matt-gross-uPa8mFbySYw-unsplash.jpg);
+    background-image: url(Images/WelcomeBG.jpg);
     background-repeat: fixed;
     background-attachment: scroll;
     background-size: cover;
@@ -97,7 +97,7 @@ nav{
     padding-bottom: 100px;
     background-color: papayawhip;
     color: black;
-    background-image: url(https://www.design.svgbackgrounds.com/wp-content/uploads/2021/05/protruding-squares-orange-background.png);
+    background-image: url(Images/FunfactBG.png);
     background-size: 100%; 
     background-position: center;
     border-top: 25px solid white;
@@ -115,7 +115,7 @@ nav{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-image: url(https://images.unsplash.com/photo-1579547621244-c07e55dcb856?ixlib=rb-4.0.3&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+    background-image: url(Images/jokesBG.jpg);
     background-size: cover; 
 }
 
@@ -236,90 +236,3 @@ img{
 .toggleH{
     display: none;
 }
-/*
-.funfactheader{
-    font-size: 30px; 
-    padding-left: 150px; 
-    background-color: aqua;
-}
-.funfact{
-    background-image: url(Images/pexels-felix-mittermeier-1146134.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    color: white;
-
-}
-.flex-container{
-    background-color: darkslategrey;
-}
-.funinfo{
-    list-style: none;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-}
-
-.info{
-    background-color: aliceblue;
-    margin: 50px;
-    flex-basis: 20%;
-    padding: 150px 150px;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 20px;
-  }*/
-  /*
-  .info:hover{
-    box-shadow: 0 0 20px 0px rgb(180, 249, 249);
-  }*/
-
-/*
-  .popup{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0,0,0,0.5);
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'PT Serif', serif;
-  }
-  .info{
-    width: 600px;
-    height: 500px;
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-  }
-  .close{
-    max-height: 10px;
-    padding: 40px;
-    border-radius: 20px;
-    text-align: center;
-    background-color: blueviolet;
-    text-decoration: none;
-  }
-  .submit{
-    height: 10px;
-    padding: 40px;
-    border-radius: 20px;
-    text-align: center;
-    background-color: blueviolet;
-    text-decoration: none;
-  }
-  .popbtn{
-    align-items: flex-end;
-  }
-*/
-
