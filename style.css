@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Klee One', cursive;
 }
+
 
 .header{
     background-image: url(Images/pexels-felix-mittermeier-1146134.jpg);
@@ -94,7 +96,7 @@ nav{
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: papayawhip;
-    color: rgb(30, 46, 46);
+    color: black;
     background-image: url(https://www.design.svgbackgrounds.com/wp-content/uploads/2021/05/protruding-squares-orange-background.png);
     background-size: 100%; 
     background-position: center;
@@ -120,6 +122,52 @@ nav{
 .joke{
     width: 80%; 
     margin: auto;
+}
+
+.abtsec{
+    width: 100%;
+    border-top: 10px solid rgb(121, 0, 0);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+.about{
+    width: 80%;
+    margin: auto;
+}
+
+.about p{
+    text-align: left;
+    color: white;
+}
+
+.about h1{
+    padding-bottom: 40px;
+}
+
+.contsec{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    border-top: 10px solid rgb(87, 0, 121);
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+.contact{
+    width: 80%;
+    margin: auto;
+}
+
+.contact p{
+    text-align: left;
+    color: white;
+}
+
+.contact h1{
+    padding-bottom: 40px;
 }
 
 h1{
@@ -153,7 +201,7 @@ img{
 }
 
 .columnJ{
-    flex-basis: 31%;
+    flex-basis: 30%;
     background: rgb(246, 201, 252);
     border-radius: 10px;
     margin-bottom: 5%;
@@ -168,8 +216,8 @@ img{
     display: none;
 }
 .toggle{
-    background-color: #d96bfa;
-    border: none;
+    background-color: #da87f3;
+    border: 2px solid rgb(228, 126, 226);
     color: white;
     padding: 8px;
     text-align: center;
